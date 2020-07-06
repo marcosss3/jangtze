@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion">
+  <div class="accordion" :class="{ expanded: expanded }">
     <div class="accordion__header" @click="expanded = !expanded">
       <slot name="header" :expanded="expanded" />
     </div>

@@ -144,7 +144,6 @@ export default {
       border-width: 0;
       border-top-width: 1px;
       padding: 6px 0;
-      transition: all 150ms ease-out;
 
       &--filler {
         width: 28px;
@@ -193,7 +192,7 @@ export default {
 
 .banner-heading {
   color: white;
-  font-family: "Lato", "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 12px;

@@ -1,6 +1,7 @@
 <template>
   <div class="footer">
     <img width="100" src="../assets/img/logo-white.png" class="footer__logo" />
+    <p class="footer__logo-label">JANGTZE</p>
     <div class="footer__content">
       <a href="https://goo.gl/maps/1CqJNVKjV2c78sek9" class="body">
         <b-icon-geo-alt class="icon"></b-icon-geo-alt>
@@ -34,7 +35,16 @@ export default {
   padding: 80px 0;
 
   &__logo {
-    margin-bottom: 42px;
+    margin-bottom: 16px;
+
+    &-label {
+      font-size: 24px;
+      font-family: "Cinzel", serif;
+      font-weight: 700;
+      color: white;
+      letter-spacing: 3px;
+      margin-bottom: 48px;
+    }
   }
 
   &__content {
