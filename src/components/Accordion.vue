@@ -1,6 +1,6 @@
 <template>
   <div class="accordion">
-    <div @click="expanded = !expanded">
+    <div class="accordion__header" @click="expanded = !expanded">
       <slot name="header" :expanded="expanded" />
     </div>
     <transition
@@ -49,4 +49,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped lang="scss">
+.accordion {
+  &__header {
+    cursor: pointer;
+  }
+}
+</style>

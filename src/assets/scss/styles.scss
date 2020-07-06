@@ -1,7 +1,9 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap-vue/src/index.scss";
 
-@import url(https://db.onlinewebfonts.com/c/2b75c8e61f3e0a99d45d4a30a0bdc888?family=Neuzeit+Office+Soft+Rounded);
+@import url("https://db.onlinewebfonts.com/c/2b75c8e61f3e0a99d45d4a30a0bdc888?family=Neuzeit+Office+Soft+Rounded");
+@import url("https://db.onlinewebfonts.com/c/47439778717a494cad415e6e5cf8b790?family=Alegreya");
+@import url("https://db.onlinewebfonts.com/c/ea217b877ad8a26878c3ca0d102491b7?family=Cinzel");
 
 $bg-secondary: #fbf4f5;
 
@@ -11,14 +13,32 @@ $body-1: #212529;
 
 @font-face {
   font-family: "Alegreya";
-  src: url("/fonts/Alegreya-Regular.ttf");
-  font-weight: normal;
+  src: url("//db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.eot");
+  src: url("//db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.svg#Alegreya")
+      format("svg");
 }
 
 @font-face {
   font-family: "Cinzel";
-  src: url("/fonts/Cinzel-Bold.ttf");
-  font-weight: bold;
+  src: url("//db.onlinewebfonts.com/t/ea217b877ad8a26878c3ca0d102491b7.eot");
+  src: url("//db.onlinewebfonts.com/t/ea217b877ad8a26878c3ca0d102491b7.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ea217b877ad8a26878c3ca0d102491b7.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ea217b877ad8a26878c3ca0d102491b7.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ea217b877ad8a26878c3ca0d102491b7.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ea217b877ad8a26878c3ca0d102491b7.svg#Cinzel")
+      format("svg");
 }
 
 ul {
