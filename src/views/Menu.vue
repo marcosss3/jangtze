@@ -10,6 +10,14 @@
     </div>
 
     <div class="container menu__content">
+      <p class="body">
+        Aquí encontrará nuestro menú a la carta. También disponemos de un menú
+        del día.
+      </p>
+      <p class="body">
+        Nuestros platos pueden contener alérgenos, por favor consulte al
+        camarero.
+      </p>
       <div class="row">
         <div class="col">
           <ul>
@@ -23,7 +31,9 @@
                   <div class="menu__category-label">
                     <span class="menu__category-label--filler"></span>
                     <h4>{{ category }}</h4>
-                    <span class="menu__category-label--toggle">{{ props.expanded ? "−" : "+" }}</span>
+                    <span class="menu__category-label--toggle">{{
+                      props.expanded ? "−" : "+"
+                    }}</span>
                   </div>
                 </template>
                 <template v-slot:content>
@@ -117,7 +127,7 @@ export default {
   }
 
   &__content {
-    margin: 80px auto;
+    margin: 48px auto;
   }
 
   &__category {
@@ -160,7 +170,7 @@ export default {
       flex-wrap: wrap;
       justify-content: flex-start;
       padding: 10px 0;
-      border-top: 1px solid
+      border-top: 1px solid;
     }
   }
 
@@ -189,6 +199,11 @@ export default {
   letter-spacing: 12px;
   padding: 12px 28px 12px 36px;
   border: 1px solid white;
+}
+
+.body {
+  width: 90%;
+  margin: 0 auto 36px auto;
 }
 
 @media screen and (min-width: 768px) {
