@@ -4,7 +4,7 @@
       <div class="container" style="height: 100%;">
         <div class="header__content">
           <div class="header__logo">
-            <img width="36" height="36" src="./assets/img/logo.png" />
+            <img width="32" height="32" src="./assets/img/logo.png" />
             <span class="header__logo-label">JANGTZE</span>
           </div>
         </div>

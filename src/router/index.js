@@ -6,8 +6,8 @@ import Menu from "../views/Menu";
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  //mode: "history",
-  //base: process.env.BASE_URL,
+  mode: "history",
+  base: "/jangtze/",
   routes: [
     {
       path: "/",
