@@ -15,9 +15,15 @@
 </template>
 
 <script>
+import { BIconGeoAlt, BIconPhone } from "bootstrap-vue";
+
 export default {
-  name: "Footer"
-}
+  name: "Footer",
+  components: {
+    BIconGeoAlt,
+    BIconPhone,
+  },
+};
 </script>
 
 <style scoped lang="scss">

@@ -10,6 +10,7 @@
   "dependencies": {
     "@popperjs/core": "^2.4.4",
     "bootstrap": "^4.5.0",
+    "bootstrap-icons": "^1.0.0-alpha5",
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "portal-vue": "^2.1.7",
