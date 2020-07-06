@@ -1,12 +1,24 @@
-<template functional>
+<template>
   <div class="footer">
     <img width="100" src="../assets/img/logo-white.png" class="footer__logo" />
     <div class="footer__content">
-      <p class="body">Calle Alcalde Marcial Franco 3, San Fernando, 35100, Las Palmas</p>
-      <p class="body">(+34) 928 77 01 80</p>
+      <a href="https://goo.gl/maps/1CqJNVKjV2c78sek9" class="body">
+        <b-icon-geo-alt class="icon"></b-icon-geo-alt>
+        Calle Alcalde Marcial Franco 3, San Fernando, 35100, Las Palmas
+      </a>
+      <a href="tel:928770180" class="body">
+        <b-icon-phone class="icon"></b-icon-phone>
+        (+34) 928 77 01 80
+      </a>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Footer"
+}
+</script>
 
 <style scoped lang="scss">
 @import "../assets/scss/styles";
@@ -25,10 +37,19 @@
   }
 }
 
+.icon {
+  margin-right: 4px;
+}
+
 .body {
+  display: block;
   color: white;
   font-size: 16px;
   font-family: "Alegreya";
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+
+  &:hover {
+    color: white;
+  }
 }
 </style>

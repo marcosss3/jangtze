@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div class="container mt-5 mb-5">
+    <div class="container menu__content">
       <div class="row">
         <div class="col">
           <ul>
@@ -114,6 +114,10 @@ export default {
       transform: translate(-50%, -50%);
       text-align: center;
     }
+  }
+
+  &__content {
+    margin: 80px auto;
   }
 
   &__category {
