@@ -51,7 +51,7 @@ export default {
   display: block;
   color: white;
   font-size: 16px;
-  font-family: "Alegreya";
+  font-family: "Alegreya", serif;
   margin-bottom: 16px;
 
   &:hover {

@@ -21,7 +21,7 @@ import Footer from "./components/Footer.vue"
 export default {
   name: "App",
   components: {
-    Footer
+    Footer,
   }
 };
 </script>
@@ -60,7 +60,7 @@ export default {
 
     &-label {
       font-size: 20px;
-      font-family: "Cinzel";
+      font-family: "Cinzel", serif;
       font-weight: 700;
       color: $primary;
       letter-spacing: 3px;

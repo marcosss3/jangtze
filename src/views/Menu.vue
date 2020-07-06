@@ -127,7 +127,7 @@ export default {
   }
 
   &__content {
-    margin: 48px auto;
+    margin: 56px auto;
   }
 
   &__category {
@@ -158,7 +158,7 @@ export default {
       }
 
       h4 {
-        font-family: "Alegreya";
+        font-family: "Alegreya", serif;
         font-size: 20px;
         letter-spacing: 3px;
         margin: 0;
@@ -179,7 +179,7 @@ export default {
     justify-content: space-between;
     padding: 10px 0;
     width: 100%;
-    font-family: "Neuzeit Office Soft Rounded";
+    font-family: "Neuzeit Office Soft Rounded", "Helvetica Neue", sans-serif;
 
     &-dots {
       flex-grow: 1;
@@ -193,7 +193,7 @@ export default {
 
 .banner-heading {
   color: white;
-  font-family: "Lato", "Helvetica Neue";
+  font-family: "Lato", "Helvetica Neue", sans-serif;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 12px;
