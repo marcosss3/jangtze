@@ -71,6 +71,5 @@ export default {
 
 .footer {
   background-color: $body-1;
-  height: 400px;
 }
 </style>
