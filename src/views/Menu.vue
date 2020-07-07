@@ -229,7 +229,7 @@ export default {
 
     img {
       width: 50%;
-      height: auto;
+      max-height: 300px;
       object-fit: cover;
     }
   }
