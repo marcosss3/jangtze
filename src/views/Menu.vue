@@ -10,16 +10,17 @@
     </div>
 
     <div class="container menu__content">
-      <p class="body">
-        Aquí encontrará nuestro menú a la carta. También disponemos de un menú
-        del día.
-      </p>
-      <p class="body">
-        Nuestros platos pueden contener alérgenos, por favor consulte al
-        camarero.
-      </p>
       <div class="row">
         <div class="col">
+          <h2 class="menu__content-heading">Nuestra Carta</h2>
+          <p class="body">
+            Aquí encontrará nuestro menú a la carta. También disponemos de un
+            menú del día.
+          </p>
+          <p class="body mb-5">
+            Nuestros platos pueden contener alérgenos, por favor consulte al
+            camarero.
+          </p>
           <ul>
             <li
               v-for="category in categories"
@@ -44,6 +45,7 @@
                       class="menu__dish"
                     >
                       <span>{{ capitalise(dish.name) }}</span>
+                      <spicy v-if="dish.spicy === 'TRUE'" class="menu__dish-spicy" />
                       <span class="menu__dish-dots"></span>
                       <span>{{ dish.price }}€</span>
                     </li>
@@ -52,14 +54,27 @@
               </accordion>
             </li>
           </ul>
+
+          <div class="menu__content-spicy">
+            <spicy class="mb-1" />
+            <span class="menu__content-spicy--label">Platos picantes</span>
+          </div>
         </div>
       </div>
+    </div>
+
+    <div class="menu__gallery">
+      <img src="../assets/img/img-2.jpg" />
+      <img src="../assets/img/img-3.jpg" />
+      <img src="../assets/img/img-4.jpg" />
+      <img src="../assets/img/img-5.jpg" />
     </div>
   </div>
 </template>
 
 <script>
 import Accordion from "../components/Accordion.vue";
+import Spicy from "../components/Spicy.vue";
 
 import menu from "../assets/data/menu.json";
 
@@ -67,6 +82,7 @@ export default {
   name: "Menu",
   components: {
     Accordion,
+    Spicy,
   },
   data() {
     return {
@@ -76,7 +92,7 @@ export default {
   },
   computed: {
     categories() {
-      return Array.from(new Set(menu.map((a) => a.description)));
+      return Array.from(new Set(menu.map((a) => a.category)));
     },
   },
   methods: {
@@ -85,7 +101,7 @@ export default {
     },
     getDishesFromCategory(string) {
       return this.menu.filter((item) => {
-        return item.description === string;
+        return item.category === string;
       });
     },
   },
@@ -128,6 +144,19 @@ export default {
 
   &__content {
     margin: 56px auto;
+
+    &-heading {
+      font-family: "Alegreya";
+      margin-bottom: 24px;
+    }
+
+    &-spicy {
+      margin-top: 40px;
+
+      &--label {
+        margin-left: 8px;
+      }
+    }
   }
 
   &__category {
@@ -180,12 +209,28 @@ export default {
     width: 100%;
     font-family: "Neuzeit Office Soft Rounded", "Helvetica Neue", sans-serif;
 
+    &-spicy {
+      margin-top: 2px;
+      margin-left: 6px;
+    }
+
     &-dots {
       flex-grow: 1;
       margin: 0 6px 6px;
       border-style: dotted;
       border-width: 0px;
       border-bottom-width: 1px;
+    }
+  }
+
+  &__gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
     }
   }
 }
@@ -202,7 +247,7 @@ export default {
 
 .body {
   width: 90%;
-  margin: 0 auto 36px auto;
+  margin: 0 auto 24px auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -215,6 +260,16 @@ export default {
       }
       &:nth-child(even) {
         padding-left: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    &__gallery {
+      img {
+        width: 25%;
       }
     }
   }
