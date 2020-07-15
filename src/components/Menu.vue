@@ -32,6 +32,41 @@
           </div>
 
           <template v-if="option === 'comida'">
+            <div class="menu__content-allergens">
+              <div class="menu__content-allergens--item">
+                <img
+                  class="menu__content-allergens--icon"
+                  src="../assets/img/egg.jpg"
+                />
+                <p class="menu__content-allergens--label body">
+                  Huevos
+                </p>
+              </div>
+              <div class="menu__content-allergens--item">
+                <img
+                  class="menu__content-allergens--icon"
+                  src="../assets/img/gluten.jpg"
+                />
+                <p class="menu__content-allergens--label body">
+                  Gluten
+                </p>
+              </div>
+              <div class="menu__content-allergens--item">
+                <img
+                  class="menu__content-allergens--icon"
+                  src="../assets/img/nuts.jpg"
+                />
+                <p class="menu__content-allergens--label body">
+                  Nueces
+                </p>
+              </div>
+              <div class="menu__content-allergens--item">
+                <spicy class="menu__content-allergens--icon" />
+                <p class="menu__content-allergens--label body">
+                  Picante
+                </p>
+              </div>
+            </div>
             <ul class="menu__accordion">
               <li
                 v-for="category in categories"
@@ -89,41 +124,6 @@
                 </accordion>
               </li>
             </ul>
-            <div class="menu__content-allergens">
-              <div class="menu__content-allergens--item">
-                <img
-                  class="menu__content-allergens--icon"
-                  src="../assets/img/egg.jpg"
-                />
-                <p class="menu__content-allergens--label body">
-                  Huevos
-                </p>
-              </div>
-              <div class="menu__content-allergens--item">
-                <img
-                  class="menu__content-allergens--icon"
-                  src="../assets/img/gluten.jpg"
-                />
-                <p class="menu__content-allergens--label body">
-                  Gluten
-                </p>
-              </div>
-              <div class="menu__content-allergens--item">
-                <img
-                  class="menu__content-allergens--icon"
-                  src="../assets/img/nuts.jpg"
-                />
-                <p class="menu__content-allergens--label body">
-                  Nueces
-                </p>
-              </div>
-              <div class="menu__content-allergens--item">
-                <spicy class="menu__content-allergens--icon" />
-                <p class="menu__content-allergens--label body">
-                  Picante
-                </p>
-              </div>
-            </div>
           </template>
 
           <template v-if="option === 'bebida'">
@@ -236,7 +236,7 @@ export default {
     }
 
     &-allergens {
-      margin: 40px auto 0;
+      margin: 40px auto;
       display: flex;
       justify-content: center;
       width: 90%;
