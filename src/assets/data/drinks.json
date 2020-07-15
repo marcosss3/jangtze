@@ -1,0 +1,482 @@
+[
+  {
+    "name": "COCA COLA",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "COCA COLA LIGHT",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "FANTA NARANJA",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "FANTA LIMON",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "TÓNICA",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "SODA",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "SEVEN UP",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "APPLETEISER",
+    "category": "REFRESCOS",
+    "price": "2,20"
+  },
+  {
+    "name": "BITTER NAS",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "ZUMO DE NARANJA NATURAL",
+    "category": "REFRESCOS",
+    "price": "3,50"
+  },
+  {
+    "name": "ZUMO DE MELOCOTÓN",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "ZUMO DE PERA-PIÑA",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "CLIPPER FRESA",
+    "category": "REFRESCOS",
+    "price": "1,90"
+  },
+  {
+    "name": "NESTEA (LATA)",
+    "category": "REFRESCOS",
+    "price": "2,20"
+  },
+  {
+    "name": "TROPICAL",
+    "category": "CERVEZAS",
+    "price": "1,90"
+  },
+  {
+    "name": "DORADA",
+    "category": "CERVEZAS",
+    "price": "1,90"
+  },
+  {
+    "name": "DORADA (SIN ALCOHOL)",
+    "category": "CERVEZAS",
+    "price": "1,90"
+  },
+  {
+    "name": "HEINEKEN",
+    "category": "CERVEZAS",
+    "price": "1,90"
+  },
+  {
+    "name": "TÉ CHINO",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,70"
+  },
+  {
+    "name": "TÉ NORMAL",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,70"
+  },
+  {
+    "name": "MANZANILLA",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,70"
+  },
+  {
+    "name": "MENTA POLEO",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,70"
+  },
+  {
+    "name": "CAFÉ",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,30"
+  },
+  {
+    "name": "CORTADO",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,30"
+  },
+  {
+    "name": "CAFÉ CON LECHE",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,70"
+  },
+  {
+    "name": "DESCAFEINADO",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,30"
+  },
+  {
+    "name": "CORTADO -  CONDENSADA",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "1,70"
+  },
+  {
+    "name": "CARAJILLO",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "2,20"
+  },
+  {
+    "name": "CAPUCHINO",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "2,50"
+  },
+  {
+    "name": "IRISH COFFEE",
+    "category": "INFUSIONES Y CAFÉ",
+    "price": "4,50"
+  },
+  {
+    "name": "CARLOS I",
+    "category": "BRANDY Y COÑAC",
+    "price": "4,80"
+  },
+  {
+    "name": "MAGNO",
+    "category": "BRANDY Y COÑAC",
+    "price": "3,00"
+  },
+  {
+    "name": "103 BLANCO",
+    "category": "BRANDY Y COÑAC",
+    "price": "3,00"
+  },
+  {
+    "name": "VETERANO",
+    "category": "BRANDY Y COÑAC",
+    "price": "3,00"
+  },
+  {
+    "name": "BALLANTINES",
+    "category": "WHISKY",
+    "price": "3,00"
+  },
+  {
+    "name": "JOHNNIE WALKER ROJO",
+    "category": "WHISKY",
+    "price": "3,00"
+  },
+  {
+    "name": "JOHNNIE WALKER NEGRO",
+    "category": "WHISKY",
+    "price": "5,00"
+  },
+  {
+    "name": "JOHN HAIG",
+    "category": "WHISKY",
+    "price": "3,00"
+  },
+  {
+    "name": "100 PIPER'S",
+    "category": "WHISKY",
+    "price": "3,00"
+  },
+  {
+    "name": "J&B",
+    "category": "WHISKY",
+    "price": "3,00"
+  },
+  {
+    "name": "CHIVAS",
+    "category": "WHISKY",
+    "price": "5,00"
+  },
+  {
+    "name": "GORDON'S GIN",
+    "category": "AGUARDIENTES",
+    "price": "3,00"
+  },
+  {
+    "name": "RON ARTEMI",
+    "category": "AGUARDIENTES",
+    "price": "3,00"
+  },
+  {
+    "name": "RON AREHUCAS",
+    "category": "AGUARDIENTES",
+    "price": "3,00"
+  },
+  {
+    "name": "RON BACARDI",
+    "category": "AGUARDIENTES",
+    "price": "3,00"
+  },
+  {
+    "name": "HAVANA CLUB 7",
+    "category": "AGUARDIENTES",
+    "price": "4,00"
+  },
+  {
+    "name": "SMIRNOFF VODKA",
+    "category": "AGUARDIENTES",
+    "price": "3,00"
+  },
+  {
+    "name": "PACHARÁN",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "COINTREAU",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "TÍA MARÍA",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "BAILEYS",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "FRANGÉLICO",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "AMARETTO DI SORONNO",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "DRAMBUIE",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "VODKA POMELO",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "LICOR DE MORA",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "CREMA DE PLÁTANO",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "GRAND MARNIER ROJO",
+    "category": "LICORES",
+    "price": "4,00"
+  },
+  {
+    "name": "MARIE BRIZARD",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "MELOCOTÓN",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "MANZANA",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "LICOR DE PLÁTANO",
+    "category": "LICORES",
+    "price": "3,00"
+  },
+  {
+    "name": "FERNET BRANCA",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "JÄGERMEISTER",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "SAKE (1/2 JARRA)",
+    "category": "LICORES",
+    "price": "3,50"
+  },
+  {
+    "name": "SAKE (1 JARRA)",
+    "category": "LICORES",
+    "price": "5,50"
+  },
+  {
+    "name": "MARTINI",
+    "category": "APERTIVOS",
+    "price": "2,50"
+  },
+  {
+    "name": "TÍO PEPE",
+    "category": "APERTIVOS",
+    "price": "2,00"
+  },
+  {
+    "name": "DRY SACK",
+    "category": "APERTIVOS",
+    "price": "2,00"
+  },
+  {
+    "name": "CAMPARI",
+    "category": "APERTIVOS",
+    "price": "3,00"
+  },
+  {
+    "name": "TORRES - SANGRE DE TORO (1/2)",
+    "category": "VINOS TINTOS",
+    "price": "8,50"
+  },
+  {
+    "name": "TORRES - SANGRE DE TORO",
+    "category": "VINOS TINTOS",
+    "price": "13,80"
+  },
+  {
+    "name": "MARQUÉS DE RISCAL (1/2)",
+    "category": "VINOS TINTOS",
+    "price": "13,80"
+  },
+  {
+    "name": "MARQUÉS DE RISCAL",
+    "category": "VINOS TINTOS",
+    "price": "23,80"
+  },
+  {
+    "name": "MARQUÉS DE CÁCERES (1/2)",
+    "category": "VINOS TINTOS",
+    "price": "10,00"
+  },
+  {
+    "name": "MARQUÉS DE CÁCERES",
+    "category": "VINOS TINTOS",
+    "price": "17,00"
+  },
+  {
+    "name": "EL COTO (1/2)",
+    "category": "VINOS TINTOS",
+    "price": "9,00"
+  },
+  {
+    "name": "EL COTO",
+    "category": "VINOS TINTOS",
+    "price": "14,00"
+  },
+  {
+    "name": "COTO DE IMAZ",
+    "category": "VINOS TINTOS",
+    "price": "19,00"
+  },
+  {
+    "name": "SOLAR VIEJO",
+    "category": "VINOS TINTOS",
+    "price": "13,80"
+  },
+  {
+    "name": "PROTOS",
+    "category": "VINOS TINTOS",
+    "price": "23,80"
+  },
+  {
+    "name": "TORRES - DE CASTA (1/2)",
+    "category": "VINOS ROSADOS",
+    "price": "8,50"
+  },
+  {
+    "name": "TORRES - DE CASTA",
+    "category": "VINOS ROSADOS",
+    "price": "13,80"
+  },
+  {
+    "name": "MARQUES DE CÁCERES",
+    "category": "VINOS ROSADOS",
+    "price": "14,50"
+  },
+  {
+    "name": "MATEUS ROSÉ (1/2)",
+    "category": "VINOS ROSADOS",
+    "price": "8,50"
+  },
+  {
+    "name": "MATEUS ROSÉ",
+    "category": "VINOS ROSADOS",
+    "price": "13,00"
+  },
+  {
+    "name": "CASAL MÉNDEZ",
+    "category": "VINOS ROSADOS",
+    "price": "13,00"
+  },
+  {
+    "name": "TORRES - VIÑA SOL (1/2)",
+    "category": "VINOS BLANCOS",
+    "price": "8,50"
+  },
+  {
+    "name": "TORRES - VIÑA SOL",
+    "category": "VINOS BLANCOS",
+    "price": "13,80"
+  },
+  {
+    "name": "TORRES - SAN VALENTÍN (1/2)",
+    "category": "VINOS BLANCOS",
+    "price": "8,50"
+  },
+  {
+    "name": "TORRES - SAN VALENTÍN",
+    "category": "VINOS BLANCOS",
+    "price": "13,80"
+  },
+  {
+    "name": "TORRES - VIÑA ESMERALDA",
+    "category": "VINOS BLANCOS",
+    "price": "16,50"
+  },
+  {
+    "name": "MARQUÉS DE CÁCERES",
+    "category": "VINOS BLANCOS",
+    "price": "14,50"
+  },
+  {
+    "name": "SANGRÍA (1/2)",
+    "category": "OTROS",
+    "price": "10,00"
+  },
+  {
+    "name": "SANGRÍA",
+    "category": "OTROS",
+    "price": "15,00"
+  },
+  {
+    "name": "COPA DE VINO",
+    "category": "OTROS",
+    "price": "3,00"
+  }
+]

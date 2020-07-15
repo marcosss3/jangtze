@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!--
     <div class="header">
       <div class="container" style="height: 100%;">
         <div class="header__content">
@@ -10,19 +11,20 @@
         </div>
       </div>
     </div>
+    -->
     <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import Footer from "./components/Footer.vue"
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Footer,
-  }
+  },
 };
 </script>
 
@@ -30,7 +32,7 @@ export default {
 @import "./assets/scss/styles";
 
 #app {
-  font-family: "Neuzeit Office Soft Rounded", Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Neuzeit Office", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

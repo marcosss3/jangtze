@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
-import Menu from "../views/Menu";
+import Main from "../components/Main";
 
 Vue.use(VueRouter);
 
@@ -11,8 +11,8 @@ export default new VueRouter({
   routes: [
     {
       path: "/",
-      name: "Menu",
-      component: Menu,
+      name: "Main",
+      component: Main,
     },
     {
       path: "*",

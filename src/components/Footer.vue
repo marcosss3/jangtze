@@ -5,12 +5,19 @@
     <div class="footer__content">
       <a href="https://goo.gl/maps/1CqJNVKjV2c78sek9" class="body">
         <b-icon-geo-alt class="icon"></b-icon-geo-alt>
-        Calle Alcalde Marcial Franco 3, San Fernando, 35100, Las Palmas
+        Calle Alcalde Marcial Franco 3, San Fernando, Maspalomas, 35100
       </a>
-      <a href="tel:928770180" class="body">
+      <div class="footer__content-phone">
         <b-icon-phone class="icon"></b-icon-phone>
-        (+34) 928 77 01 80
-      </a>
+        <a href="tel:928770180" class="body">
+          928 77 01 80
+        </a>
+        <p class="body ml-1 mr-1">/</p>
+        <a href="tel:928770180" class="body">
+          928 76 55 87
+        </a>
+      </div>
+      <p class="body">(Comida para llevar)</p>
     </div>
   </div>
 </template>
@@ -48,13 +55,22 @@ export default {
   }
 
   &__content {
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
+
+    &-phone {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 24px;
+    }
   }
 }
 
 .icon {
   margin-right: 4px;
+  color: white;
 }
 
 .body {
@@ -62,7 +78,7 @@ export default {
   color: white;
   font-size: 16px;
   font-family: "Alegreya", serif;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 
   &:hover {
     color: white;

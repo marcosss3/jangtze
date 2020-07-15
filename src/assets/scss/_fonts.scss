@@ -1,5 +1,6 @@
 @font-face {
-  font-family: "Neuzeit Office Soft Rounded";
+  font-family: "Neuzeit Office";
+  font-weight: normal;
   src: url("//db.onlinewebfonts.com/t/2b75c8e61f3e0a99d45d4a30a0bdc888.eot");
   src: url("//db.onlinewebfonts.com/t/2b75c8e61f3e0a99d45d4a30a0bdc888.eot?#iefix")
       format("embedded-opentype"),
@@ -10,6 +11,22 @@
     url("//db.onlinewebfonts.com/t/2b75c8e61f3e0a99d45d4a30a0bdc888.ttf")
       format("truetype"),
     url("//db.onlinewebfonts.com/t/2b75c8e61f3e0a99d45d4a30a0bdc888.svg#Neuzeit Office Soft Rounded")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Neuzeit Office";
+  font-weight: bold;
+  src: url("//db.onlinewebfonts.com/t/a39f0ff438398a729dea9853b2c5e9e5.eot");
+  src: url("//db.onlinewebfonts.com/t/a39f0ff438398a729dea9853b2c5e9e5.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a39f0ff438398a729dea9853b2c5e9e5.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a39f0ff438398a729dea9853b2c5e9e5.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a39f0ff438398a729dea9853b2c5e9e5.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a39f0ff438398a729dea9853b2c5e9e5.svg#Neuzeit Office")
       format("svg");
 }
 
@@ -60,9 +77,13 @@
       format("svg");
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   body {
     font-size: 1.125rem;
+
+    &--large {
+      font-size: 1.25rem;
+    }
   }
 
   p {
