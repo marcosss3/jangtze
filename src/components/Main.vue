@@ -37,8 +37,8 @@
           <h4 class="timetable__day">De lunes a sábado</h4>
           <p class="timetable__time">12:30 − 16:00</p>
           <p class="timetable__time">19:00 − 00:00</p>
-          <h4 class="timetable__day mt-4">Domingo (y festivos)</h4>
-          <p class="timetable__time">13:00 − 00:00</p>
+          <h4 class="timetable__day mt-4">Domingo</h4>
+          <p class="timetable__time">12:00 − 00:00</p>
         </div>
       </div>
     </div>

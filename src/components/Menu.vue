@@ -57,7 +57,7 @@
                   src="../assets/img/nuts.jpg"
                 />
                 <p class="menu__content-allergens--label body">
-                  Nueces
+                  Frutos secos
                 </p>
               </div>
               <div class="menu__content-allergens--item">
