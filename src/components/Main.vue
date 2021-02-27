@@ -39,26 +39,6 @@
           <p class="timetable__time">19:00 − 00:00</p>
           <h4 class="timetable__day mt-4">Domingo</h4>
           <p class="timetable__time">12:00 − 00:00</p>
-          <h2 class="timetable__content-heading mt-5" style="color: #c2433a;">
-            * Horario de Navidad *
-          </h2>
-          <h4 class="timetable__day">Diciembre 24</h4>
-          <p class="timetable__time">12:00 − 20:30</p>
-          <p class="timetable__description">
-            (Servicio de mesa solo hasta las 16:00)
-          </p>
-          <h4 class="timetable__day mt-4">Diciembre 31</h4>
-          <p class="timetable__time">12:00 − 16:00</p>
-          <p class="timetable__time">19:00 − 23:00</p>
-          <p class="timetable__description">
-            (Servicio de mesa solo hasta las 16:00)
-          </p>
-          <h4 class="timetable__day mt-4">Enero 6</h4>
-          <p class="timetable__time">12:00 − 16:00</p>
-          <p class="timetable__time">19:00 − 23:00</p>
-          <p class="timetable__description">
-            (Servicio de mesa solo a partir de las 19:00)
-          </p>
         </div>
       </div>
     </div>
